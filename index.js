@@ -1,3 +1,6 @@
-const Joke = require('./joke.js');
+const jokes = require('./joke.js');
 
-console.log(Joke);
+jokes.getOne()
+  .then(joke => {
+    document.getElementById('joke').innerHTML = joke;
+  });
