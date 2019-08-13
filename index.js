@@ -1,5 +1,6 @@
 //const jokes = require('./joke.js');
 import {jokes} from './joke';
+import './style.scss';
 import fs from 'fs';
 
 jokes.getOne()
